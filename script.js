@@ -70,5 +70,5 @@ function updateTodoListWithFilteredTasks(filteredTasks){
       console.log(listItem)
       todoList.appendChild(listItem)
     })
-
-
+    updateCount()
+}
